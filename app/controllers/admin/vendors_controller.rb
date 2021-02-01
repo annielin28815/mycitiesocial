@@ -6,8 +6,9 @@ class Admin::VendorsController < Admin::BaseController
     end
 
     def new
-        @vendor = Vendor.new
-    end   
+      @product = Product.new
+      @product.skus.build
+    end  
 
     def create
         @vendor = Vendor.new(vendor_params)
@@ -23,11 +24,11 @@ class Admin::VendorsController < Admin::BaseController
     end
 
     def update
-        if @vendor.update(vendor_params)
-          redirect_to edit_admin_vendor_path(@vendor), notice: '資料更新成功！'
-        else
-          render :edit
-        end
+      if @vendor.update(vendor_params)
+        redirect_to edit_admin_vendor_path(@vendor), notice: '資料更新成功！'
+      else
+        render :edit
+      end
     end
 
     def destroy

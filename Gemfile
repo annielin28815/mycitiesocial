@@ -21,7 +21,8 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Active Storage variant
-# gem 'image_processing', '~> 1.2'
+# 解開下面這行，可以解決圖片檔案縮圖產生的問題。
+gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
@@ -29,6 +30,8 @@ gem 'devise', '~> 4.7', '>= 4.7.2'
 gem 'omniauth-google-oauth2', '~> 0.8.0'
 gem 'figaro', '~> 1.2'
 gem 'paranoia', '~> 2.4', '>= 2.4.2'
+gem 'friendly_id', '~> 5.3'
+gem 'acts_as_list', '~> 1.0', '>= 1.0.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
