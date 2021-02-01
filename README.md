@@ -1,24 +1,16 @@
-# README
+![專案畫面預覽圖](https://i.imgur.com/sDmaPW1.jpg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+### 1.專案來源
 
-* System dependencies
+#### (1)自[五倍紅寶石微痛轉職工程師線上課程](https://campus.5xruby.tw/p/coding)學習
+#### (2)復刻[Citiesocial網站](https://ubin.io/dXY6nN)。
 
-* Configuration
+### 2.版本
+##### (1)ruby '2.6.5'
+##### (2)rails, '~> 6.0.3', '>= 6.0.3.2'
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### 3.第三方服務
+##### (1)devise, omniauth-google-oauth2
+##### (2)linepay
