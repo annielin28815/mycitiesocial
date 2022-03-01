@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.7'
 
 # Use Active Storage variant
 # 解開下面這行，可以解決圖片檔案縮圖產生的問題。
-gem 'image_processing', '~> 1.2'
+gem 'image_processing', '~> 1.12'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
